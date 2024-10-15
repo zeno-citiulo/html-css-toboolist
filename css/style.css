@@ -30,6 +30,25 @@ header .header-top span{
 
 .container{
   max-width: 500px;
-  background-color: #F6F8FA;
+  background-color: #F7F9FA;
   margin: 0 auto;
+  padding-top: 70px;
+}
+
+button{
+  background-color: #49A9ED;
+  width: 70px;
+  height: 25px;
+  border-radius: 15%;
+  border-color: #49A9ED;
+  font-size: 0.7rem;
+  color: white;
+  text-align: center;
+}
+
+.df-button{
+  background-color: white;
+  color: lightgrey;
+  border-color: lightgrey;
+  width: 85px;
 }
