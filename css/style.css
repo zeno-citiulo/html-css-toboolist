@@ -29,7 +29,7 @@ header .header-top span{
 /********************* MAIN ******************/
 
 .container{
-  max-width: 500px;
+  max-width: 650px;
   background-color: #F7F9FA;
   margin: 0 auto;
   padding-top: 70px;
@@ -51,4 +51,12 @@ button{
   color: lightgrey;
   border-color: lightgrey;
   width: 85px;
+}
+
+section{
+  background-color: red;
+  max-width: 650px;
+  height: 600px;
+  padding-left: 60px;
+  padding-top: 15px;
 }
