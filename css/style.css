@@ -56,7 +56,47 @@ button{
 section{
   background-color: red;
   max-width: 650px;
-  height: 600px;
   padding-left: 60px;
   padding-top: 15px;
+  min-height: 600px;
+}
+
+.lista-bf::before{
+  font-size: 1.2rem;
+  content: '\25BC';
+  font-size: 0.8rem;
+}
+
+.lista-bf{
+  font-size: 1.3rem;
+}
+
+.lista{
+  padding-top: 20px;
+}
+
+.bf-content{
+  padding-top: 10px;
+}
+
+.bf::before{
+  content: '\2713';
+}
+
+.bf-after::before{
+  content: '\2713';
+}
+
+.bf::after{
+  content: 'Editorial';
+  padding: 5px 10px 5px 10px;
+  margin-left: 10px;
+  color: white;
+  background-color: #4AA7EA;
+  font-size: 0.8rem;
+  border-radius: 30%;
+}
+
+.bf{
+  padding-bottom: 15px;
 }
